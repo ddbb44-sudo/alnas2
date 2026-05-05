@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تأملات لغوية وتفسيرية في سورة الناس</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"IBM Plex Sans Arabic"', 'sans-serif'],
+            quran: ['"Amiri"', 'serif'],
+          },
+          colors: {
+            sand: '#F5F3EF',
+            ink: '#1F2937',
+            olive: '#31473A',
+            gold: '#8B6F47',
+            cream: '#F8F6F1',
+            line: '#D6CFC2',
+            soft: '#F3F4F6'
+          },
+          boxShadow: {
+            card: '0 8px 30px rgba(0,0,0,0.06)',
+            cardDark: '0 10px 30px rgba(0,0,0,0.25)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: "IBM Plex Sans Arabic", sans-serif;
+    }
+    .quran-text {
+      font-family: "Amiri", serif;
+    }
+  </style>
+</head>
+<body class="bg-sand text-ink dark:bg-ink dark:text-white transition-colors duration-300">
+
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/80 dark:bg-gray-900/80 border-b border-line dark:border-gray-700">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between gap-4">
+      <div>
+        <h1 class="text-xl md:text-2xl font-semibold">تأملات لغوية وتفسيرية في سورة الناس</h1>
+        <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">عرض منظم للسورة: النص، المعنى، اللطائف، والفوائد</p>
+      </div>
+      <button id="themeToggle" class="px-4 py-2 rounded-xl bg-olive text-white hover:opacity-90 transition">
+        تبديل الوضع
+      </button>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8 md:py-12 space-y-8">
+
+    <section class="bg-white dark:bg-gray-800 rounded-3xl shadow-card dark:shadow-cardDark border border-line dark:border-gray-700 p-6 md:p-8">
+      <div class="max-w-3xl">
+        <span class="inline-block text-sm px-3 py-1 rounded-full bg-amber-100 text-gold dark:bg-amber-900/30 dark:text-amber-300 mb-4">
+          سورة الناس
+        </span>
+        <h2 class="text-2xl md:text-4xl font-bold mb-4">مدخل السورة</h2>
+        <p class="text-base md:text-lg leading-8 text-gray-700 dark:text-gray-200">
+          سورة الناس من المعوذتين، وتختم المصحف بالاستعاذة برب الناس وملكهم وإلههم من شر الوسواس الخناس،
+          وفي ذلك توجيه بليغ إلى أن النجاة الحقيقية تكون باللجوء إلى الله وحده.
+        </p>
+      </div>
+    </section>
+
+    <section class="grid lg:grid-cols-2 gap-6">
+      <div class="bg-cream dark:bg-gray-800 rounded-3xl shadow-card dark:shadow-cardDark border border-line dark:border-gray-700 p-6 md:p-8">
+        <h3 class="text-xl font-bold mb-4">نص السورة</h3>
+        <div class="quran-text text-2xl md:text-3xl leading-[2.4] text-olive dark:text-emerald-200">
+          قُلْ أَعُوذُ بِرَبِّ النَّاسِ<br>
+          مَلِكِ النَّاسِ<br>
+          إِلَٰهِ النَّاسِ<br>
+          مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ<br>
+          الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ<br>
+          مِنَ الْجِنَّةِ وَالنَّاسِ
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-card dark:shadow-cardDark border border-line dark:border-gray-700 p-6 md:p-8">
+        <h3 class="text-xl font-bold mb-4">المعنى الإجمالي</h3>
+        <p class="leading-8 text-gray-700 dark:text-gray-200 mb-4">
+          تأمر السورة النبي صلى الله عليه وسلم، ومن وراءه الأمة، أن يستعيذوا بالله المتصف بربوبية الناس وملكه وألوهيته
+          من شر الشيطان الذي يوسوس ثم يتأخر ويختفي إذا ذُكر الله.
+        </p>
+        <p class="leading-8 text-gray-700 dark:text-gray-200">
+          والوسوسة قد تكون من الجن، وقد تكون من الإنس ممن يزينون الشر أو يفسدون اليقين أو يدفعون إلى الغفلة.
+        </p>
+      </div>
+    </section>
+
+    <section class="grid md:grid-cols-3 gap-6">
+      <article class="bg-white dark:bg-gray-800 rounded-3xl shadow-card dark:shadow-cardDark border border-line dark:border-gray-700 p-6">
+        <h3 class="text-lg font-bold mb-3 text-olive dark:text-emerald-300">لطيفة لغوية</h3>
+        <p class="leading-8 text-gray-700 dark:text-gray-200">
+          تكرار كلمة <strong>الناس</strong> يرسخ المعنى ويؤكد شمول الرعاية الإلهية للإنسان في كل أحواله.
+        </p>
+      </article>
+
+      <article class="bg-white dark:bg-gray-800 rounded-3xl shadow-card dark:shadow-cardDark border border-line dark:border-gray-700 p-6">
+        <h3 class="text-lg font-bold mb-3 text-olive dark:text-emerald-300">لطيفة عقدية</h3>
+        <p class="leading-8 text-gray-700 dark:text-gray-200">
+          الجمع بين الربوبية والملك والألوهية فيه تدرج بديع من التعريف بالله إلى تمام الإخلاص له في الاستعاذة.
+        </p>
+      </article>
+
+      <article class="bg-white dark:bg-gray-800 rounded-3xl shadow-card dark:shadow-cardDark border border-line dark:border-gray-700 p-6">
+        <h3 class="text-lg font-bold mb-3 text-olive dark:text-emerald-300">فائدة تربوية</h3>
+        <p class="leading-8 text-gray-700 dark:text-gray-200">
+          أعظم ما يطرد الوساوس دوام الذكر، وصحة التوحيد، ومراقبة الخواطر قبل أن تتحول إلى قول أو عمل.
+        </p>
+      </article>
+    </section>
+
+    <section class="bg-white dark:bg-gray-800 rounded-3xl shadow-card dark:shadow-cardDark border border-line dark:border-gray-700 p-6 md:p-8">
+      <h2 class="text-2xl font-bold mb-6">تأملات مختصرة</h2>
+      <div class="space-y-4">
+        <div class="p-4 rounded-2xl bg-soft dark:bg-gray-700">
+          <p class="leading-8">الاستعاذة هنا ليست مجرد لفظ، بل إعلان افتقار واعتماد كامل على الله.</p>
+        </div>
+        <div class="p-4 rounded-2xl bg-soft dark:bg-gray-700">
+          <p class="leading-8">موضع الوسوسة هو الصدر، أي بداية التسلل إلى الداخل قبل أن يستقر المعنى في القلب والعمل.</p>
+        </div>
+        <div class="p-4 rounded-2xl bg-soft dark:bg-gray-700">
+          <p class="leading-8">ختم القرآن بهذه السورة فيه إشارة إلى أن طالب الهداية يحتاج دائمًا إلى تحصين يحفظ عليه إيمانه.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="max-w-6xl mx-auto px-4 pb-10 pt-2">
+    <div class="text-center text-sm text-gray-500 dark:text-gray-400">
+      صُممت الصفحة لتكون خفيفة وواضحة ومتوافقة مع العربية وGitHub Pages
+    </div>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('themeToggle');
+    toggleBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+    });
+  </script>
+
+</body>
+</html>
